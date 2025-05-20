@@ -7,7 +7,7 @@ from groq import Groq
 load_dotenv()
 
 # Initialize Groq client
-client = Groq(api_key="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")  # Ensure your API key is stored correctly in .env
+client = Groq(api_key="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")  # Ensure your API key is stored correctly in .env
 def chat_with_groq(user_input):
     """ Function to communicate with Groq AI """
     response = client.chat.completions.create(
